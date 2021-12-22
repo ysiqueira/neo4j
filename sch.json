@@ -10,8 +10,8 @@
 {"id":"20","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"4","labels":["Email"]}}
 {"id":"21","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"5","labels":["Endereco"]}}
 {"id":"22","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"6","labels":["Dispositivo"]}}
-{"id":"23","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"3","labels":["RG"]}}
-{"id":"24","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"2","labels":["Telefone"]}}
+{"id":"23","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"2","labels":["RG"]}}
+{"id":"24","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"3","labels":["Telefone"]}}
 {"id":"25","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"4","labels":["Email"]}}
 {"id":"26","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"2","labels":["RG"]}}
 {"id":"27","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"3","labels":["Telefone"]}}
