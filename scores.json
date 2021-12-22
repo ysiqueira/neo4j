@@ -1,1 +1,8 @@
-{"type":"node","id":"1312","labels":["Node"],"properties":{"name":"Sharon Pratt","id":"Q2109934","type":"human"}}
+{"type":"node","id":"1","labels":["Pessoa"],"properties":{"nome":"","cpf":"","sobrenome":""}}
+{"type":"node","id":"2","labels":["RG"],"properties":{"numero":"","estado":""}}
+{"type":"node","id":"3","labels":["Telefone"],"properties":{"numero":"","ddd":"","ddi":""}}
+{"type":"node","id":"4","labels":["Email"],"properties":{"endereco":"","provedor":"","eh_descastavel":""}}
+{"type":"node","id":"5","labels":["Endereco"],"properties":{"cep":"","latitude":"","longitude":""}}
+{"type":"node","id":"6","labels":["Dispositivo"],"properties":{"identificador":"","eh_movel":""}}
+{"type":"node","id":"7","labels":["Vazamento"],"properties":{"nome":"","data":"", "tipo": ""}}
+{"type":"node","id":"8","labels":["Instituicao_Financeira"],"properties":{"nome":"","id":""}}
