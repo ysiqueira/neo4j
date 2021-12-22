@@ -20,4 +20,4 @@
 {"id":"30","type":"relationship","label":"EXPOE","start":{"id":"9","labels":["Deep_Web"]},"end":{"id":"1","labels":["Pessoa"]}}
 {"id":"31","type":"relationship","label":"TEM_CONTA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}}
 {"id":"32","type":"relationship","label":"TENTATIVA_ABRIR_CONTA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}}
-{"id":"33","type":"relationship","label":"FAZ_CONEXAO","start":{"id":"6","labels":["Dispositivo"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}, "properties":{"data": "", "rede_wifi":"", "rede_4g":"","usa_vpn": "", "usa_tor": "", "latitude", "longitude" }}
+{"id":"33","type":"relationship","label":"FAZ_CONEXAO","start":{"id":"6","labels":["Dispositivo"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}, "properties":{"data":"", "rede_wifi":"", "rede_4g":"","usa_vpn":"", "usa_tor":"", "latitude":"", "longitude":"" }}
