@@ -13,8 +13,8 @@
 {"id":"23","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"3","labels":["RG"]}}
 {"id":"24","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"2","labels":["Telefone"]}}
 {"id":"25","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"4","labels":["Email"]}}
-{"id":"26","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"3","labels":["RG"]}}
-{"id":"27","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"2","labels":["Telefone"]}}
+{"id":"26","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"2","labels":["RG"]}}
+{"id":"27","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"3","labels":["Telefone"]}}
 {"id":"28","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"1","labels":["Pessoa"]}}
 {"id":"29","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"5","labels":["Endereco"]}}
 {"id":"30","type":"relationship","label":"EXPOE","start":{"id":"9","labels":["Deep_Web"]},"end":{"id":"1","labels":["Pessoa"]}}
