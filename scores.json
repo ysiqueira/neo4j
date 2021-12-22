@@ -6,4 +6,26 @@
 {"type":"node","id":"6","labels":["Dispositivo"],"properties":{"identificador":"","eh_movel":""}}
 {"type":"node","id":"7","labels":["Vazamento"],"properties":{"nome":"","data":"", "tipo": ""}}
 {"type":"node","id":"8","labels":["Instituicao_Financeira"],"properties":{"nome":"","id":""}}
+{"type":"node","id":"9","labels":["Deep_Web"],"properties":{"url":"","data":""}}
 {"id":"20","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"4","labels":["Email"]}}
+{"id":"21","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"5","labels":["Endereco"]}}
+{"id":"22","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"6","labels":["Dispositivo"]}}
+{"id":"23","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"3","labels":["RG"]}}
+{"id":"24","type":"relationship","label":"USA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"2","labels":["Telefone"]}}
+{"id":"25","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"4","labels":["Email"]}}
+{"id":"26","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"3","labels":["RG"]}}
+{"id":"27","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"2","labels":["Telefone"]}}
+{"id":"28","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"1","labels":["Pessoa"]}}
+{"id":"29","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"5","labels":["Endereco"]}}
+{"id":"30","type":"relationship","label":"EXPOE","start":{"id":"9","labels":["Deep_Web"]},"end":{"id":"1","labels":["Pessoa"]}}
+{"id":"31","type":"relationship","label":"TEM_CONTA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}}
+{"id":"32","type":"relationship","label":"TENTATIVA_ABRIR_CONTA","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}}
+{"id":"33","type":"relationship","label":"FAZ_CONEXAO","start":{"id":"6","labels":["Dispositivo"]},"end":{"id":"8","labels":["Instituicao_Financeira"]}}
+
+
+
+
+
+
+
+
