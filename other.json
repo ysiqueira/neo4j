@@ -20,5 +20,5 @@
 {"id":"29","type":"relationship","label":"CONTEM","start":{"id":"7","labels":["Vazamento"]},"end":{"id":"5","labels":["Endereco"]}}
 {"id":"30","type":"relationship","label":"EXPOE","start":{"id":"9","labels":["Deep_Web"]},"end":{"id":"1","labels":["Pessoa"]}}
 {"id":"31","type":"relationship","label":"POSSUI","start":{"id":"1","labels":["Pessoa"]},"end":{"id":"10","labels":["Conta"] }}
-{"id":"32","type":"relationship","label":"PERTENCE_A","start":{"id":"10","labels":["Conta"]},"end":{"id":"9","labels":["Instituicao_Financeira"] }}
+{"id":"32","type":"relationship","label":"PERTENCE_A","start":{"id":"10","labels":["Conta"]},"end":{"id":"8","labels":["Instituicao_Financeira"] }}
 {"id":"32","type":"relationship","label":"TENTA_ABRIR","start":{"id":"6","labels":["Dispositivo"]},"end":{"id":"10","labels":["Conta"]}}
